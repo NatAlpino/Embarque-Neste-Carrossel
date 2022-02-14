@@ -1,0 +1,43 @@
+[
+  {
+    "id": "12343",
+    "name": "Helena Ferreira",
+    "profession": "Desenvolvedora Júnior",
+    "description": "Olá, sou casada, mãe de uma garotinha de 7 anos chamada Lívia. Gosto muito de estudar e me divertir com minha família. Venho da área financeira e esta é minha primeira atuação em tecnologia",
+    "hobbies": "família, livros, música, netflix,",
+    "image": "https://cdn-icons-png.flaticon.com/512/190/190613.png"
+  },
+  {
+    "id": "94313762",
+    "name": "Constanza Martínez",
+    "profession": "Desenvolvedora Sênior",
+    "description": "Apaixonada por tecnologia, inovação, pessoas e meus pets. Atuando a 6 anos na área e buscando sempre crescimento profissional e pessoal.",
+    "hobbies": "família, música, animais, passeios ao ar livre",
+    "image": "https://cdn-icons-png.flaticon.com/512/190/190589.png"
+  },
+  
+  { 
+    "id": "943137XQ",
+    "name": "Louise Laurent",
+    "profession": "Desenvolvedora Sênior",
+    "description": "Formada em Ciencias da computação e pós graduada em Banco de Dados, com mais de 8 anos atuando na área de desenvolvimento.",
+    "hobbies": "gatronomia, vinho, música, teatro",
+    "image": "https://cdn-icons-png.flaticon.com/512/190/190607.png"
+  },
+  {
+    "id": "95077714",
+    "name": "Amary Cairu",
+    "profession": "Product Owner",
+    "description": "Anauê! Sou apaixonada por tecnologia, já atuei em diversas áreas e estou a 2 anos na área de produto.",
+    "hobbies": "ler, podcast, natureza, família",
+    "image": "https://cdn-icons-png.flaticon.com/512/190/190593.png"
+  },
+  {
+    "id": "9507779N",
+    "name": "Aisha Al-Abadi",
+    "profession": "Tech Lead",
+    "description": "Tenho mais de 7 anos atuando em tecnologia, comecei como desenvolvedora, passei pela área de produto e a 3 anos venho atuando como líder técnico.",
+    "hobbies": "música, leitura, animais, família",
+    "image": "https://cdn-icons-png.flaticon.com/512/190/190603.png"
+  }
+]
