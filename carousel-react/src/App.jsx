@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import Card from "./components/Card";
+import Button from "./components/Button";
 import "./App.css";
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/profile.json')
+    fetch("http://localhost:3000/static/profile.json")
       .then((response) => response.json())
       .then((result) =>
         result.map((item, index) => ({ ...item, active: index <= 0 }))
@@ -27,7 +28,7 @@ const App = () => {
     setData(result);
   };
 
-  if (!data) return null;
+  if (!data) return;
 
   const selectedIndex = data.findIndex(({ active }) => active);
 
@@ -38,29 +39,28 @@ const App = () => {
           <Card item={itemData} key={index} />
         ))}
       </div>
-
       <div className="buttons">
-        <button
-          disabled={selectedIndex <= 0}
-          onClick={() => handleNewRightClick(-1)}
-        >
-          <img
-            src="static/images/cursor.png"
-            alt="Left"
-            className="button"
-          ></img>
-        </button>
-        <button
+        <Button 
+          disabled={selectedIndex <= 0} 
+          onClick={() => handleNewRightClick(-1)} 
+          alt="Left"
+        />
+        <Button
           disabled={selectedIndex >= data.length - 1}
           onClick={() => handleNewRightClick(1)}
-        >
-          <img
-            src="static/images/cursor.png"
-            alt="Right"
-            className="button"
-          ></img>
-        </button>
+          alt="Rigth"
+        />
       </div>
+      <footer class="footer">
+        <div>
+          <img
+            class="logoReact"
+            src="static/images/logo.png"
+            alt="Logo React"
+          ></img>
+          <p>Natália Alpino</p>
+        </div>
+      </footer>
     </div>
   );
 };
