@@ -24,6 +24,7 @@ body {
   display: flex;
   scroll-behavior: smooth;
   align-items: center;
+  height: 870px;
 }
 
 .container .carousel::-webkit-scrollbar {
@@ -113,6 +114,8 @@ body {
 
 .container .buttons {
   text-align: center;
+  margin-top: -150px;
+  margin-bottom: 150px;
 }
 
 .container .buttons button {
@@ -120,6 +123,7 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.5s;
+  height: 50px;
 }
 
 .container .buttons button:first-child img {
