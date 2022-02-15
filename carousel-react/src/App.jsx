@@ -51,16 +51,6 @@ const App = () => {
           alt="Rigth"
         />
       </div>
-      <footer class="footer">
-        <div>
-          <img
-            class="logoReact"
-            src="static/images/logo.png"
-            alt="Logo React"
-          ></img>
-          <p>Natália Alpino</p>
-        </div>
-      </footer>
     </div>
   );
 };
