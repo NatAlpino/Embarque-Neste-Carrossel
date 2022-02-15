@@ -1,43 +1,43 @@
 [
   {
     "id": "12343",
-    "name": "Helena Ferreira",
+    "name": "Leia Skywalker Organa Solo",
     "profession": "Desenvolvedora Júnior",
-    "description": "Olá, sou casada, mãe de uma garotinha de 7 anos chamada Lívia. Gosto muito de estudar e me divertir com minha família. Venho da área financeira e esta é minha primeira atuação em tecnologia.",
-    "hobbies": "família, livros, música, netflix",
-    "image": "https://cdn-icons-png.flaticon.com/512/190/190613.png"
+    "description": "Lutadora pelas causas sociais. Apaixonada por tecnologia, já trabalhei em diversas outras áreas e acredito que a tecnologia salvará a humanidade da total destruição.",
+    "hobbies": "família, livros, amigos, disney+",
+    "image": "https://exame.com/wp-content/uploads/2016/12/fisher.jpg"
   },
   {
     "id": "94313762",
-    "name": "Constanza Martínez",
-    "profession": "Desenvolvedora Sênior",
-    "description": "Apaixonada por tecnologia, inovação, pessoas e meus pets. Atuando a 6 anos na área e buscando sempre crescimento profissional e pessoal.",
-    "hobbies": "família, música, animais, passeios ao ar livre",
-    "image": "https://cdn-icons-png.flaticon.com/512/190/190589.png"
+    "name": "Daenerys Targaryen",
+    "profession": "Tech Lead",
+    "description": "Uma líder nata, viúva e mãe de 3 filhos um tanto quanto rebeldes. Prefiro o calor, mas me adapto bem ao frio. Com muita garra pra enfrentar qualquer desafio. Minha meta é ser presidente de tecnologia e aposentar o Fatala.",
+    "hobbies": "família, política, animais, passeios ao ar livre",
+    "image": "https://s2.glbimg.com/W_DRn2wv5DaID2CcPfKDjp2BYJI=/512x320/smart/e.glbimg.com/og/ed/f/original/2016/06/22/daenerys.jpg"
   },
   
   { 
     "id": "943137XQ",
-    "name": "Louise Laurent",
+    "name": "Elizabeth Harmon",
     "profession": "Desenvolvedora Sênior",
-    "description": "Formada em Ciencias da computação e pós graduada em Banco de Dados, com mais de 8 anos atuando na área de desenvolvimento.",
-    "hobbies": "gatronomia, vinho, música, teatro",
-    "image": "https://cdn-icons-png.flaticon.com/512/190/190607.png"
+    "description": "Trabalho na área desde muito nova e sou movida a desafios. Meu forte é a lógica.",
+    "hobbies": "xadrez, vinho, música, leitura",
+    "image": "https://quartaparede.s3.us-east-2.amazonaws.com/wp-content/uploads/2020/10/31175429/o-gambito-da-rainha-752x440.jpg"
   },
   {
     "id": "95077714",
-    "name": "Amary Cairu",
-    "profession": "Product Owner",
-    "description": "Anauê! Sou apaixonada por tecnologia, já atuei em diversas áreas e estou a 2 anos na área de produto.",
-    "hobbies": "ler, podcast, natureza, família",
-    "image": "https://cdn-icons-png.flaticon.com/512/190/190593.png"
+    "name": "Meredith Grey",
+    "profession": "Desenvolvedora Pleno",
+    "description": "Larguei a medicina e entrei na área de tecnologia a 4 anos. Estou sempre pronta para enfrentar as dificuldades, da profissão e da vida. A tecnologia é a minha pessoa.",
+    "hobbies": "ler, amigos, natureza, família",
+    "image": "https://catracalivre.com.br/wp-content/uploads/2017/12/ellen-pompeo.jpg"
   },
   {
     "id": "9507779N",
-    "name": "Aisha Al-Abadi",
-    "profession": "Tech Lead",
-    "description": "Tenho mais de 7 anos atuando em tecnologia, comecei como desenvolvedora, passei pela área de produto e a 3 anos venho atuando como líder técnico.",
-    "hobbies": "música, leitura, animais, família",
-    "image": "https://cdn-icons-png.flaticon.com/512/190/190603.png"
+    "name": "Sara Connor",
+    "profession": "Desenvolvedora Junior",
+    "description": "Já fui muito contra a tecnologia, mas hoje acredito que nas mãos certas ela pode mudar o mundo. ",
+    "hobbies": "música, leitura, família, filmes clássicos",
+    "image": "https://s2.glbimg.com/y0dR0v2iN5fPvt_BVOXdMszSsE0=/smart/e.glbimg.com/og/ed/f/original/2019/08/30/sarah_connor.jpg"
   }
 ]
