@@ -1,3 +1,5 @@
+import "./Card.css";
+
 const Card = ({ item }) => {
   const { id, name, profession, description, hobbies, image, active } = item;
   return (
