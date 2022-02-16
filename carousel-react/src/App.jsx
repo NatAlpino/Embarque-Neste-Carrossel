@@ -33,23 +33,29 @@ const App = () => {
   const selectedIndex = data.findIndex(({ active }) => active);
 
   return (
-    <div className="container">
-      <div className="carousel" ref={carousel}>
-        {data.map((itemData, index) => (
-          <Card item={itemData} key={index} />
-        ))}
-      </div>
-      <div className="buttons">
-        <Button 
-          disabled={selectedIndex <= 0} 
-          onClick={() => handleNewRightClick(-1)} 
-          alt="Left"
-        />
-        <Button
-          disabled={selectedIndex >= data.length - 1}
-          onClick={() => handleNewRightClick(1)}
-          alt="Rigth"
-        />
+    <div>
+      <header className="header">
+        <img className="woman" src= "http://localhost:3000/static/images/woman.png" alt= "woman"></img>
+        <p className="titulo"><strong><em>Mulheres na Tecnologia.</em></strong></p>
+      </header>
+      <div className="container">
+        <div className="carousel" ref={carousel}>
+          {data.map((itemData, index) => (
+            <Card item={itemData} key={index} />
+          ))}
+        </div>
+        <div className="buttons">
+          <Button
+            disabled={selectedIndex <= 0}
+            onClick={() => handleNewRightClick(-1)}
+            alt="Left"
+          />
+          <Button
+            disabled={selectedIndex >= data.length - 1}
+            onClick={() => handleNewRightClick(1)}
+            alt="Rigth"
+          />
+        </div>
       </div>
     </div>
   );

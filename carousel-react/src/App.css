@@ -14,6 +14,24 @@ body {
   place-items: center;
 }
 
+.header {
+  display: flex;
+  place-items: left;
+  margin-left: 0%;
+}
+
+.woman {
+  background: transparent;
+  width: 75px;
+  height: 75px;
+  padding: 8px;
+}
+
+.titulo {
+  font-family: 'Sarala', sans-serif;
+  margin-top: 3%;
+}
+
 .container {
   margin-top: 0;
   height: 100%;
