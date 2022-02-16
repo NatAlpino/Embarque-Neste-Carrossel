@@ -7,7 +7,7 @@ const Card = ({ item }) => {
       </div>
       <div className="info">
         <span className="name">{name}</span>
-        <span className="profession">{profession}</span>
+        <span className="profession"><strong>{profession}</strong></span>
         <span className="description">{description}</span>
         {hobbies && (
           <article>

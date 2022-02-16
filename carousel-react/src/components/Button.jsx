@@ -1,3 +1,5 @@
+import "./Button.css";
+
 const Button = ({disabled, onClick, alt}) => {
   return (
     <button

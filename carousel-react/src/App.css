@@ -29,7 +29,7 @@ body {
 
 .container .carousel::-webkit-scrollbar {
   display: none;
-}
+}  
 
 .container .carousel .item {
   background-color:#6535d4;;
@@ -110,34 +110,6 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 8px;
-}
-
-.container .buttons {
-  text-align: center;
-  margin-top: -150px;
-  margin-bottom: 150px;
-}
-
-.container .buttons button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: all 0.5s;
-  height: 50px;
-}
-
-.container .buttons button:first-child img {
-  transform: rotate(180deg);
-}
-
-.container .buttons button:disabled {
-  display: none;
-}
-
-.button {
-  width: 75px;
-  height: 75px;
-  padding: 8px;
 }
 
 
