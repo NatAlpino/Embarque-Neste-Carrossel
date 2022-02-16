@@ -34,10 +34,6 @@ const App = () => {
 
   return (
     <div>
-      <header className="header">
-        <img className="woman" src= "http://localhost:3000/static/images/woman.png" alt= "woman"></img>
-        <p className="titulo"><strong><em>Mulheres na Tecnologia.</em></strong></p>
-      </header>
       <div className="container">
         <div className="carousel" ref={carousel}>
           {data.map((itemData, index) => (
