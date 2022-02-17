@@ -4,7 +4,7 @@
   margin-bottom: 150px;
 }
 
-.container .buttons button {
+button {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -12,11 +12,11 @@
   height: 50px;
 }
 
-.container .buttons button:first-child img {
+button:first-child img {
   transform: rotate(180deg);
 }
 
-.container .buttons button:disabled {
+button:disabled {
   display: none;
 }
 

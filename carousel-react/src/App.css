@@ -20,14 +20,14 @@ body {
   width: 100%;
 }
 
-.container .carousel {
+.carousel {
   display: flex;
   scroll-behavior: smooth;
   align-items: center;
   height: 870px;
 }
 
-.container .carousel .item {
+.item {
   background-color: #6535d4;
   margin: 180px;
   padding: 25px;
@@ -36,10 +36,10 @@ body {
   display: none;
 }
 
-.container .carousel::-webkit-scrollbar {
+.carousel::-webkit-scrollbar {
   display: none;
 }
 
-.container .carousel .active {
+.active {
   display: block;
 }

@@ -1,4 +1,4 @@
-.container .carousel .item .image img {
+img {
   width: 600px;
   height: 250px;
   object-fit: cover;
@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.container .carousel .item .info {
+.info {
   font-family: "Sarala", sans-serif;
   color: rgb(3, 7, 39);
   display: flex;
@@ -27,7 +27,7 @@
   justify-content: space-between;
 }
 
-.container .carousel .item .info span {
+span {
   font-family: "Sarala", sans-serif;
   display: block;
   text-align: center;
@@ -36,24 +36,24 @@
   border-radius: 10px;
 }
 
-.container .carousel .item .info .name {
+.name {
   font-family: "Sarala", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 10px 0;
 }
-.container .carousel .item .info .profession {
+.profession {
   font-family: "Sarala", sans-serif;
   font-size: 1.2rem;
 }
 
-.container .carousel .item .info .description {
+.description {
   font-family: "Sarala", sans-serif;
   margin-top: 5px;
   font-size: 1rem;
 }
 
-.container .carousel .item .info .hobbies {
+.hobbies {
   margin-top: 10px;
   font-size: 1rem;
   font-weight: bold;
@@ -61,7 +61,7 @@
   background-color: rgb(49, 15, 126);
 }
 
-.container .carousel .item .info article {
+article {
   display: flex;
   justify-content: center;
   column-gap: 8px;
