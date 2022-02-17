@@ -1,11 +1,8 @@
 import "./Button.css";
 
-const Button = ({disabled, onClick, alt}) => {
+const Button = ({ disabled, onClick, alt }) => {
   return (
-    <button
-      disabled={disabled}
-      onClick={onClick}
-    >
+    <button disabled={disabled} onClick={onClick}>
       <img src="static/images/cursor.png" alt={alt} className="button"></img>
     </button>
   );

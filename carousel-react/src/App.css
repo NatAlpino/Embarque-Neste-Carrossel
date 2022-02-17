@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -28,7 +28,7 @@ body {
 }
 
 .container .carousel .item {
-  background-color:#6535d4;;
+  background-color: #6535d4;
   margin: 180px;
   padding: 25px;
   width: 500px;
@@ -38,12 +38,8 @@ body {
 
 .container .carousel::-webkit-scrollbar {
   display: none;
-} 
+}
 
 .container .carousel .active {
   display: block;
 }
-
-
-
-

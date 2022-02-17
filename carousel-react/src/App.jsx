@@ -3,19 +3,15 @@ import Card from "./components/Card/Card";
 import Button from "./components/Button/Button";
 import "./App.css";
 
-//    O useState vem pra lidar com a mudança de estado dentro da app que antes nao tinha nada e 
-// apos o uso do useEffect passa a ter os dados da api. 
-//    Ele ajuda a blindar a app de possiveis erros devido essa mudança.
 const App = () => {
-  const [data, setData] = useState([]); 
-  const carousel = useRef(null); 
+  const [data, setData] = useState([]);
+  const carousel = useRef(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/static/profile.json") //usando o fetch para acessar a api
-      .then((response) => response.json()) //pegando os dados da api e transformando a resposta em json
-      .then(
-        (result) =>
-          result.map((item, index) => ({ ...item, active: index <= 0 })) //usando o metodo map para percorrer a api
+    fetch("http://localhost:3000/static/profile.json")
+      .then((response) => response.json())
+      .then((result) =>
+        result.map((item, index) => ({ ...item, active: index <= 0 }))
       )
       .then(setData);
   }, []);
