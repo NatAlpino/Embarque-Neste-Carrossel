@@ -9,8 +9,11 @@ const App = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-      const result = Profile.map((item, index) => ({ ...item, active: index <= 0 }))
-      setData(result);
+    const result = Profile.map((item, index) => ({
+      ...item,
+      active: index <= 0,
+    }));
+    setData(result);
   }, []);
 
   const handleNewRightClick = (position) => {
