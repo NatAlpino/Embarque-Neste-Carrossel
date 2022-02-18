@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import Card from "./components/Card/Card";
 import Button from "./components/Button/Button";
+import Profile from "./mock/profile.json";
 import "./App.css";
 
 const App = () => {
@@ -8,12 +9,8 @@ const App = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/static/profile.json")
-      .then((response) => response.json())
-      .then((result) =>
-        result.map((item, index) => ({ ...item, active: index <= 0 }))
-      )
-      .then(setData);
+      const result = Profile.map((item, index) => ({ ...item, active: index <= 0 }))
+      setData(result);
   }, []);
 
   const handleNewRightClick = (position) => {
